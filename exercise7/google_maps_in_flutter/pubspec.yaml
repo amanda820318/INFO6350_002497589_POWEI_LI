@@ -1,0 +1,35 @@
+name: google_maps_in_flutter
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.2.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # ✅ Google Maps 正確版本
+  google_maps_flutter: ^2.6.1
+
+  # ✅ HTTP & JSON
+  http: ^1.2.1
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ✅ 用來產生 g.dart
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ 我們在 assets 放 locations.json，用來 fallback
+  assets:
+    - assets/locations.json
