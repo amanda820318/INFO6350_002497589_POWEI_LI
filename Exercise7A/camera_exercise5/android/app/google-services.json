@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766301444404",
+    "project_id": "exercise7a-d4c9e",
+    "storage_bucket": "exercise7a-d4c9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766301444404:android:de5aa29f3085b23626ed61",
+        "android_client_info": {
+          "package_name": "com.example.camera_exercise5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ1sHG7lRab6Xayiu61sNjGcG_XMs0Pq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
