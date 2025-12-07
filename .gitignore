@@ -4,3 +4,9 @@
 *.apk
 *.aab
 *.so
+
+**/build/
+**/.dart_tool/
+**/.idea/
+final_project/android/app/google-services.json
+final_project/ios/Runner/GoogleService-Info.plist
