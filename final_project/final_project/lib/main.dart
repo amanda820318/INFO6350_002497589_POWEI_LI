@@ -17,7 +17,6 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  await FirebaseService.instance.init(); // Optional: keep anonymous as fallback; login screen will handle email/password.
   runApp(const MyApp());
 }
 

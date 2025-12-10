@@ -18,4 +18,8 @@ class PostRepository {
     await _firebase.addPostToFirestore(post.toMap());
     return post;
   }
+
+  Future<void> deletePost(Post post) async {
+    await _firebase.deletePostFromFirestore(post.id);
+  }
 }

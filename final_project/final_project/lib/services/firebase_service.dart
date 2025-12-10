@@ -44,6 +44,11 @@ class FirebaseService {
     }
   }
 
+  Future<void> deletePostFromFirestore(String id) async {
+    await _firestore.collection('posts').doc(id).delete();
+    // TODO: Optionally delete associated images from Storage if paths are known.
+  }
+
   Stream<List<Map<String, dynamic>>> listenPosts() {
     return _firestore
         .collection('posts')
